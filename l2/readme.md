@@ -3,7 +3,7 @@
 ### 1: shell script to sort csv file
 Given a csv file formatted as Name, Age, Major, GPA, the script extracts the name and GPA and sorts the values by GPA.
 
-To run, enter ``./sort.csv`` with mycsv.csv in the directory
+To run, enter ``./sort.sh`` with mycsv.csv in the directory
 
 ### 2: python temperature conversions
 Given an array of temperatures and their respective units, the program converts each temperature to the opposite unit.
