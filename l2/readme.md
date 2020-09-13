@@ -56,6 +56,8 @@ To run, enter ``npm i axios``, then ``node apiRequest.js``
 
 **Example of expected behaviour:**
 
+Running the program will return something like 
 ```
 Create a cookbook with your favorite recipes
 ```
+
