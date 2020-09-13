@@ -17,10 +17,10 @@ class Temperature:
 tempArr = [ Temperature(44, "f"), Temperature(2, "c"), Temperature(12, "f"),
             Temperature(24,"f"), Temperature(0,"celsius") ]
 
-print("the array of temps:")
+print("TEMPERATURE ARRAY")
 for x in tempArr:
   print(x)
 
-print("temps converted:")
+print("\nTEMPERATURES CONVERTED:")
 for x in tempArr:
   print(x.convert())
