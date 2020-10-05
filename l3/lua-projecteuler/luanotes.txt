@@ -1,0 +1,59 @@
+Lua
+===============================
+
+Variables:
+
+dynamically typed
+n=2
+s="hello"
+f=1.9
+b=false
+
+Global by default, must set as local
+local s = "hi"
+
+multi line strings:
+local multiLineString = [[
+hello
+world
+:)
+]]
+
+===============================
+
+Loops:
+
+for start,end,increment/decrement
+--increments by 1
+for i=1, 100 do
+  ...
+end
+--decrements by 1
+for i=100, 1, -1 do
+  ...
+end
+--increments by 5
+for i=1, 100, 5 do
+  ...
+end
+
+=================================
+Functions:
+
+function myFunction(x)
+  ..
+  return .
+end
+
+=================================
+
+Tables/Arrays:
+
+table = {k1="hi", k2="bye"}
+print(table.k1) = "hi"
+
+could also use as simple arrays
+
+squares = {1, 4, 9, 16, 25, 36, 49, 64, 81}
+
+NOTE: indices start at 1

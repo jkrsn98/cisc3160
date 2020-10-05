@@ -1,0 +1,55 @@
+Python
+==================
+
+Variables:
+
+dynamically typed
+x=100
+b=True
+s="hi"
+
+sum = 5+15
+
+b = not False (=true)
+
+String is a list of chars, e.g
+"Hello"[0] returns 'H'
+
+len("hello") returns 5
+==================
+
+Lists/Arrays:
+
+arr = []  (technically not an array but a python 'list')
+
+arr.append(1)
+
+arr[0] returns 1
+
+arr.remove(1) removes first ooccurence of '1'
+
+len(arr) returns length
+==================
+
+Loops:
+
+x=0
+while x!=10:
+  ..
+  x+=1
+
+iterate over lists:
+for n in x:
+  ..
+
+iterate over range:
+for i in range(4, 8):
+  print(i)
+
+==================
+
+Functions:
+
+def func():
+  ..
+  return .
